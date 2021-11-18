@@ -1,0 +1,59 @@
+{
+    "env": {
+      "es6": true,
+      "node": true,
+      "mocha": true
+    },
+    "extends": "standard",
+    "rules": {
+      "no-console": ["error"],
+      "object-curly-spacing": ["error", "always"],
+      "camelcase": [
+        0,
+        {
+          "properties": "always"
+        }
+      ],
+      "semi": 2,
+      "eqeqeq": 2,
+      "max-len": [
+        2,
+        {
+          "code": 220,
+          "ignoreComments": true
+        }
+      ],
+      "quotes": [2, "double"],
+      "strict": [0, "global"],
+      "no-undef": 2,
+      "no-unused-vars": "warn",
+      "no-eq-null": 2,
+      "comma-dangle": ["error", "only-multiline"],
+      "space-before-function-paren": [
+        2,
+        {
+          "anonymous": "ignore",
+          "named": "never"
+        }
+      ],
+      "new-cap": "off",
+      "prefer-const": "error",
+      "no-multi-spaces": ["error"],
+      "no-multiple-empty-lines": [
+        "error",
+        {
+          "max": 1,
+          "maxBOF": 1
+        }
+      ],
+      "no-param-reassign": "warn",
+      "no-useless-constructor": "error",
+      "prettier/prettier": [
+        "error",
+        {"endOfLine": "auto"},
+        {
+          "usePrettierrc": false
+        }
+      ],
+    }
+  }
